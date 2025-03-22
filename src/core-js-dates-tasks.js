@@ -230,22 +230,6 @@ function getWeekNumberByDate(date) {
  * Date(2023, 1, 1) => Date(2023, 9, 13)
  */
 function getNextFridayThe13th(/* date */) {
-  // const currentDate = new Date(date);
-  // // eslint-disable-next-line no-constant-condition
-  // while (true) {
-  //   currentDate.setDate(13);
-  //   if (currentDate.getDay() === 5) {
-  //     const resultDate = new Date(
-  //       Date.UTC(
-  //         currentDate.getUTCFullYear(),
-  //         currentDate.getUTCMonth(),
-  //         currentDate.getUTCDate()
-  //       )
-  //     );
-  //     return resultDate;
-  //   }
-  //   currentDate.setMonth(currentDate.getMonth() + 1);
-  // }
   throw new Error('Not implemented');
 }
 

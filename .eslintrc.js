@@ -24,5 +24,5 @@ module.exports = {
   },
   plugins: ['prettier'],
   ignorePatterns: ['extensions/*'],
-  noInlineConfig: false,
+  noInlineConfig: true,
 };
